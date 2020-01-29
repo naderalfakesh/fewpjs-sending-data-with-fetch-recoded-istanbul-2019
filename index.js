@@ -8,7 +8,7 @@ let configObj = {
   },
   body: JSON.stringify({
     name ,
-    email 
+    email
   })
 };
 
