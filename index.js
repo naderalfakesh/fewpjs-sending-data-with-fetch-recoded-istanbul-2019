@@ -12,7 +12,7 @@ let configObj = {
   })
 };
 
-fetch("http://localhost:3000/userss", configObj)
+fetch("http://localhost:3000/users", configObj)
 .then(resp => resp.json())
 .then(data => document.querySelector('span').textContent = data.id)
 .catch(err => document.querySelector('span').textContent = err );
