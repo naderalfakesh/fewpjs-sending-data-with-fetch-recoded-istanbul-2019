@@ -11,6 +11,6 @@ let configObj = {
     email: "nader@nader.com"
   })
 };
- 
+
 fetch("http://localhost:3000/users", configObj);
 }
