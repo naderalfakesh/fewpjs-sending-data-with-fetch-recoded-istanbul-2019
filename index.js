@@ -14,4 +14,3 @@ let configObj = {
 
 fetch("http://localhost:3000/users", configObj);
 }
-submitData(name,email)
