@@ -7,10 +7,11 @@ let configObj = {
     "Accept": "application/json"
   },
   body: JSON.stringify({
-    name: "nader",
-    email: "nader@nader.com"
+    name ,
+    email 
   })
 };
 
 fetch("http://localhost:3000/users", configObj);
 }
+submitData(name,email)
