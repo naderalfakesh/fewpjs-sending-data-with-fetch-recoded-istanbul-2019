@@ -14,6 +14,6 @@ let configObj = {
 
 fetch("http://localhost:3000/users", configObj)
 .then(resp => resp.json())
-.then(data => console.log(data))
+.then(data => document.getElementsByTagName('body')[0].texContent = data.id)
 .catch(err => console.log(error));
 }
